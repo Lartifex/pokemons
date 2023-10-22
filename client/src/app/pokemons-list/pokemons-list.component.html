@@ -1,0 +1,6 @@
+<div class="container">
+  <div data-testid="pokemon_card" *ngFor="let pokemon of pokemons" class="card">
+    <span>{{ pokemon.identifier }}</span>
+    <img src={{pokemon.front_pic}} alt="pokemon image">  
+  </div>
+</div>
